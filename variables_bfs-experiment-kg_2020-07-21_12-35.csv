@@ -1,0 +1,176 @@
+"VAR","LABEL","TYPE","INPUT","QUESTION"
+"CASE","Interview-Nummer (fortlaufend)","METRIC","SYSTEM",
+"SERIAL","Seriennummer (sofern verwendet)","TEXT","SYSTEM",
+"REF","Referenz (sofern im Link angegeben)","TEXT","SYSTEM",
+"QUESTNNR","Fragebogen, der im Interview verwendet wurde","TEXT","SYSTEM",
+"MODE","Interview-Modus","TEXT","SYSTEM",
+"STARTED","Zeitpunkt zu dem das Interview begonnen hat (Europe/Berlin)","TIME","SYSTEM",
+"M501_01","Schutzmaßnahmen: Was kann ich tun? Was muss ich tun?: Lüften","TEXT","UNDEFINED",""
+"M501_02","Schutzmaßnahmen: Was kann ich tun? Was muss ich tun?: Abdichten von Türen und Leitungen zum Keller","TEXT","UNDEFINED",""
+"M501_03","Schutzmaßnahmen: Was kann ich tun? Was muss ich tun?: Eintrittswege des Radons ins Gebäude abdichten","TEXT","UNDEFINED",""
+"M501_04","Schutzmaßnahmen: Was kann ich tun? Was muss ich tun?: Radonhaltige Bodenluft absaugen","TEXT","UNDEFINED",""
+"M501_05","Schutzmaßnahmen: Was kann ich tun? Was muss ich tun?: Radon-Fachperson hinzuziehen","TEXT","UNDEFINED",""
+"M501_06","Schutzmaßnahmen: Was kann ich tun? Was muss ich tun?: Schutzmaßnahmen bei Neubauten","TEXT","UNDEFINED",""
+"M502_01","Gesetzliche Regelungen zum Schutz vor Radon: Private, bereits bestehende Wohngebäude","TEXT","UNDEFINED",""
+"M502_02","Gesetzliche Regelungen zum Schutz vor Radon: Private Neubauten","TEXT","UNDEFINED",""
+"M502_03","Gesetzliche Regelungen zum Schutz vor Radon: Arbeitsplätze","TEXT","UNDEFINED",""
+"SD01","Geben Sie bitte Ihr Geschlecht an.","NOMINAL","SELECTION","Geben Sie bitte Ihr Geschlecht an."
+"SD02_01","Bitte nennen Sie uns Ihr Geburtsjahr.: Geburtsjahr (Vierstellig)","TEXT","OPEN","Bitte nennen Sie uns Ihr Geburtsjahr."
+"SD03_01","Bitte geben Sie die Postleitzahl Ihres Hauptwohnsitzes an: Postleitzahl (fünfstellig)","TEXT","OPEN","Bitte geben Sie Ihre Postleitzahl an."
+"SD04","Welchen höchsten Abschluss haben Sie?","NOMINAL","SELECTION","Welchen höchsten Abschluss haben Sie?"
+"SD05_01","Wie viele Menschen wohnen in Ihrem Haushalt?: Anzahl","TEXT","OPEN","Wie viele Menschen wohnen in Ihrem Haushalt?"
+"SD06","Wohnen in Ihrem Haushalt Kinder (unter 18)?","NOMINAL","SELECTION","Wohnen in Ihrem Haushalt Kinder (unter 18)?"
+"SD07","Rauchen Sie zurzeit ? wenn auch nur gelegentlich?","NOMINAL","SELECTION","Rauchen Sie zurzeit ? wenn auch nur gelegentlich?"
+"HI01","Wohnen Sie zur Miete oder im eigenen Haus bzw. in der eigenen Wohnung?","NOMINAL","SELECTION","Wohnen Sie zur Miete oder im eigenen Haus bzw. in der eigenen Wohnung?
+"
+"HI02","Besitzen Sie neben der Immobilie, in der Sie derzeit wohnen noch weitere Immobilien im selben Landkreis, die Sie vermieten?","NOMINAL","SELECTION","Besitzen Sie Immobilien, die sie vermieten?
+"
+"HI03","In welchem Gebäudetyp wohnen Sie?","NOMINAL","SELECTION","In welchem Gebäudetyp wohnen Sie?"
+"HI04","Seit wann wohnen Sie in Ihrer jetzigen Wohnung bzw. dem jetzigen Haus?","NOMINAL","SELECTION","Seit wann wohnen Sie in Ihrer jetzigen Wohnung bzw. dem jetzigen Haus?"
+"HI05","Wie lange planen Sie in der jetzigen Wohnung oder dem jetzigen Haus zu wohnen?","NOMINAL","SELECTION","Wie lange planen Sie, in der jetzigen Wohnung oder dem jetzigen Haus zu wohnen?"
+"HI06","In welcher Etage wohnen Sie?","NOMINAL","SELECTION","In welcher Etage wohnen Sie?"
+"VR01","Haben Sie schon einmal etwas über das Thema Radon gehört?","NOMINAL","SELECTION","Haben Sie schon einmal etwas über das Thema Radon gehört?"
+"VR02","Was ist Ihrer Ansicht nach Radon? ","NOMINAL","SELECTION","Was ist Ihrer Ansicht nach Radon? "
+"VR03","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?: Ausweichoption (negativ) oder Anzahl ausgewählter Optionen","METRIC","SYSTEM","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?"
+"VR03_01","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?: eher im Freien","DICHOTOMOUS","CHECKBOX","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?"
+"VR03_02","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?: im Inneren von Gebäuden","DICHOTOMOUS","CHECKBOX","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?"
+"VR03_03","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?: eher im Keller","DICHOTOMOUS","CHECKBOX","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?"
+"VR03_04","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?: in den oberen Wohngeschossen","DICHOTOMOUS","CHECKBOX","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?"
+"VR03_05","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?: im Gestein und im Boden","DICHOTOMOUS","CHECKBOX","Wo befindet sich Radon Ihrer Ansicht nach in hoher Konzentration?"
+"VR04_01","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?: Radioaktivität","ORDINAL","SCALE","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?"
+"VR04_02","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?: Heilmittel","ORDINAL","SCALE","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?"
+"VR04_03","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?: Edelgas","ORDINAL","SCALE","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?"
+"VR04_04","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?: Strahlenschutz","ORDINAL","SCALE","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?"
+"VR04_05","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?: Krebs","ORDINAL","SCALE","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?"
+"VR04_06","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?: Wellness","ORDINAL","SCALE","Welche Begriffe verbinden Sie spontan mit dem Begriff Radon?"
+"VR05_01","Wie schätzen Sie im Deutschland-Vergleich das Radonrisiko für...: Ihr Bundesland ein","ORDINAL","SCALE","Wie schätzen Sie __im Deutschland-Vergleich__ das Radonrisiko für..."
+"VR05_02","Wie schätzen Sie im Deutschland-Vergleich das Radonrisiko für...: Ihren Landkreis ein","ORDINAL","SCALE","Wie schätzen Sie __im Deutschland-Vergleich__ das Radonrisiko für..."
+"VR05_03","Wie schätzen Sie im Deutschland-Vergleich das Radonrisiko für...: Ihren Wohnort ein","ORDINAL","SCALE","Wie schätzen Sie __im Deutschland-Vergleich__ das Radonrisiko für..."
+"VR06","Haben Sie schon vom Bundesamt für Strahlenschutz gehört? ","NOMINAL","SELECTION","Haben Sie schon vom Bundesamt für Strahlenschutz gehört?"
+"HM01","Haben Sie schon mal vorsorglich etwas gegen Radon unternommen?","NOMINAL","SELECTION","Haben Sie schon mal vorsorglich etwas gegen Radon unternommen?
+"
+"HM02_01","Wenn ja, was wurde gemacht? (Selbst): [01]","TEXT","OPEN","Wenn ja, was wurde gemacht?"
+"HM03","Kennen Sie jemanden in Ihrem Umfeld, der schon mal vorsorglich etwas gegen Radon unternommen hat?","NOMINAL","SELECTION","Kennen Sie jemanden in Ihrem Umfeld, der schon mal vorsorglich etwas gegen Radon unternommen hat?"
+"HM04_01","Wenn ja, was wurde gemacht? (Andere): [01]","TEXT","OPEN","Wenn ja, was wurde gemacht?"
+"HM05","Haben Sie die Radonkonzentration in Ihrem Haus bzw. in Ihrer Wohnung bereits messen lassen?","NOMINAL","SELECTION","Haben Sie die Radonkonzentration in Ihrem Haus bzw. in Ihrer Wohnung bereits messen lassen?"
+"HM06","Kennen Sie jemanden in Ihrem Umfeld, der bereits die Radonkonzentration im eigenen Haus bzw. in der eigenen Wohnung messen lassen hat?","NOMINAL","SELECTION","Kennen Sie jemanden in Ihrem Umfeld, der bereits die Radonkonzentration im eigenen Haus bzw. in der eigenen Wohnung messen lassen hat?"
+"HM07_01","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?: Innenräume regelmäßig lüften","ORDINAL","SCALE","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?"
+"HM07_02","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?: Regelmäßig putzen","ORDINAL","SCALE","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?"
+"HM07_03","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?: Türen zum Keller abdichten","ORDINAL","SCALE","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?"
+"HM07_04","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?: Eine konstante Innenraumtemperatur von 20 Grad","ORDINAL","SCALE","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?"
+"HM07_05","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?: Innenluft trocken halten","ORDINAL","SCALE","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?"
+"HM07_06","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?: Fachspezifische Sanierung","ORDINAL","SCALE","Wie schätzen Sie die Wirksamkeit der folgenden Maßnahmen gegen die mit Radon verbundenen Risiken ein?"
+"K001","Radonkarte","NOMINAL","SELECTION","Wie schätzen Sie auf Basis der Informationen, die Sie aus der Karte entnehmen konnten, Ihr Wohngebiet hinsichtlich des Radonrisikos ein?"
+"IS01_01","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die Informationen sind verständlich.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_02","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die Seite informiert objektiv über den Sachverhalt.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_03","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Der Anbieter dieses Textes wirkt auf mich vertrauenswürdig.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_04","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die Informationen sind nützlich.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_05","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die Seite ist informativ.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_06","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die Informationen sind zu kompliziert.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_07","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die Informationen sind anschaulich dargestellt.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_08","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die Informationen sind gut strukturiert.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_09","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die wichtigsten Botschaften sind klar formuliert.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS01_10","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben.: Die Darstellung der Informationen regen mich an, die Informationen vollständig zu lesen.","ORDINAL","SCALE","Bitte bewerten Sie die Informationsseite, die Sie soeben betrachtet haben."
+"IS02_01","Was hat Ihnen an dieser Informationsseite spontan gefallen?: [01]","TEXT","OPEN","Was hat Ihnen an dieser Informationsseite spontan gefallen?"
+"IS03_01","Was hat Ihnen an dieser Informationsseite spontan nicht gefallen?: [01]","TEXT","OPEN","Was hat Ihnen an dieser Informationsseite spontan __nicht__ gefallen?"
+"IO01","Aufbasis der Informationen, die Sie erhalten haben, welche folgenden Aussagen trifft Ihrer Ansicht nach zu?","NOMINAL","SELECTION","Auf Basis der Informationen, die Sie erhalten haben, welche der folgenden Aussagen trifft Ihrer Ansicht nach zu?"
+"IO02","Aufbasis der Informationen, die Sie erhalten haben, welche folgenden Aussagen trifft Ihrer Ansicht nach zu?","NOMINAL","SELECTION","Auf Basis der Informationen, die Sie erhalten haben, welche der folgenden Aussagen trifft Ihrer Ansicht nach zu?"
+"IO03","Aufbasis der Informationen, die Sie erhalten haben, welche der folgenden Wohnsituationen ist mit Blick auf die Radonbelastung kritischer zu bewerten?","NOMINAL","SELECTION","Aufbasis der Informationen, die Sie erhalten haben, welche der folgenden Wohnsituationen ist mit Blick auf die Radonbelastung kritischer zu bewerten?"
+"IO04","Aufbasis der Informationen, die Sie erhalten haben, welche der folgenden Wohnsituationen ist mit Blick auf die Radonbelastung kritischer zu bewerten?","NOMINAL","SELECTION","Aufbasis der Informationen, die Sie erhalten haben, welche der folgenden Wohnsituationen ist mit Blick auf die Radonbelastung kritischer zu bewerten?"
+"IO05","Aufbasis der Informationen, die Sie erhalten haben, welche der folgenden Maßnahmen wird vom Bundesamt für Strahlenschutz empfohlen?","NOMINAL","SELECTION","Aufbasis der Informationen, die Sie erhalten haben, welche der folgenden Maßnahmen wird vom Bundesamt für Strahlenschutz empfohlen?"
+"IO06","Aufbasis der Informationen, die Sie erhalten haben, welche der folgenden Maßnahmen wird vom Bundesamt für Strahlenschutz empfohlen?","NOMINAL","SELECTION","Aufbasis der Informationen, die Sie erhalten haben, welche der folgenden Maßnahmen wird vom Bundesamt für Strahlenschutz empfohlen?"
+"RW01_01","Hat sich durch die erhaltenen Informationen: Ihre Einschätzung zum Radonrisiko verändert?","ORDINAL","SCALE","Hat sich durch die erhaltenen Informationen..."
+"RW02_01","Wie schätzen Sie nach dem Erhalt der Informationen die mit Radon verbundenen Risiken ein?: die mit Radon verbundenen Risiken ein?","ORDINAL","SCALE","Wie schätzen Sie nach dem Erhalt der Informationen..."
+"RW03_01","Wie hoch schätzen Sie das Radonrisiko...: bei gut abgedichteter Kellertür ein?","ORDINAL","SCALE","Wie hoch schätzen Sie das Radonrisiko...
+
+"
+"RW03_02","Wie hoch schätzen Sie das Radonrisiko...: bei einer regelmäßigen, intensiven Belüftung der Innenräume ein?","ORDINAL","SCALE","Wie hoch schätzen Sie das Radonrisiko...
+
+"
+"RW03_03","Wie hoch schätzen Sie das Radonrisiko...: nach einer professionellen Radonsanierung des Gebäudes ein?","ORDINAL","SCALE","Wie hoch schätzen Sie das Radonrisiko...
+
+"
+"RW04_01","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: Radon stellt ein Risiko für die Gesundheit der Betroffenen dar.","ORDINAL","SCALE","Stimmen Sie den folgenden Aussagen nicht zu oder zu?
+"
+"RW04_02","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: Das Radonrisiko ist zu wenigen Personen bekannt.","ORDINAL","SCALE","Stimmen Sie den folgenden Aussagen nicht zu oder zu?
+"
+"RW04_03","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: Betroffene können das Risiko bereits durch Verhaltensanpassungen senken.","ORDINAL","SCALE","Stimmen Sie den folgenden Aussagen nicht zu oder zu?
+"
+"RW05_01","Wie schätzen Sie nach dem erhalt der Informationen, im Deutschland-Vergleich, das Radonrisiko für...: Ihr Bundesland ein","ORDINAL","SCALE","Wie schätzen Sie nach dem Erhalt der Informationen, __im Deutschland-Vergleich__, das Radonrisiko für..."
+"RW05_02","Wie schätzen Sie nach dem erhalt der Informationen, im Deutschland-Vergleich, das Radonrisiko für...: Ihren Landkreis ein","ORDINAL","SCALE","Wie schätzen Sie nach dem Erhalt der Informationen, __im Deutschland-Vergleich__, das Radonrisiko für..."
+"RW05_03","Wie schätzen Sie nach dem erhalt der Informationen, im Deutschland-Vergleich, das Radonrisiko für...: Ihren Wohnort ein","ORDINAL","SCALE","Wie schätzen Sie nach dem Erhalt der Informationen, __im Deutschland-Vergleich__, das Radonrisiko für..."
+"H101","Beabsichtigen Sie die Radonkonzentration in Ihren Wohnräumen messen zu lassen?","NOMINAL","SELECTION","Beabsichtigen Sie, die Radonkonzentration in Ihren Wohnräumen messen zu lassen?"
+"H102_01","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?: Der Messvorgang dauert zu lange.","ORDINAL","SCALE","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H102_02","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?: Ich werde in der Wohnung nicht langfristig wohnen.","ORDINAL","SCALE","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H102_03","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?: Die Messung ist zu teuer.","ORDINAL","SCALE","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H102_04","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?: Die Beschreibung der Risikofaktoren trifft nicht auf meine Wohnung zu.","ORDINAL","SCALE","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H102_05","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?: Ich halte eine Messung für übervorsichtig.","ORDINAL","SCALE","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H102_06","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?: Bei hohen Radonmesswerten verliert meine Immobilie an Wert.","ORDINAL","SCALE","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H102_07","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?: Ich werde ohnehin nichts tun können.","ORDINAL","SCALE","Wenn Sie nicht beabsichtigen, eine Radonmessung durchzuführen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H103","Falls die Beschreibung der Risikofaktoren auf Personen in Ihrem Umfeld zutrifft, würden Sie Ihnen zu einer Messung raten?","NOMINAL","SELECTION","Falls die Beschreibung der Risikofaktoren auf Personen in Ihrem Umfeld zutrifft, würden Sie ihnen zu einer Messung raten?"
+"H104_01","Wenn Sie es nicht beabsichtigen, welche der folgenden Gründe sind dafür ausschlaggebend?: Ich kenne keine Person, auf die die Beschreibung zutrifft.","ORDINAL","SCALE","Wenn Sie es nicht beabsichtigen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H104_02","Wenn Sie es nicht beabsichtigen, welche der folgenden Gründe sind dafür ausschlaggebend?: Ich schätze das Radonrisiko generell als zu gering ein.","ORDINAL","SCALE","Wenn Sie es nicht beabsichtigen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H104_03","Wenn Sie es nicht beabsichtigen, welche der folgenden Gründe sind dafür ausschlaggebend?: In meinem Umfeld wird über solche Themen nicht gesprochen.","ORDINAL","SCALE","Wenn Sie es nicht beabsichtigen, welche der folgenden Gründe sind dafür ausschlaggebend?"
+"H105_01","Sonstige Gründe: [01]","TEXT","OPEN","Sonstige Gründe"
+"H106_01","Sonstige Gründe // Empfehlen: [01]","TEXT","OPEN","Sonstige Gründe"
+"H201_01","Nach dem Erhalt der Informationen, würden Sie vorsorglich und ? auch ohne Messung ? auf eine der folgenden Maßnahmen zur Bekämpfung einer erhöhten Radonskonzentration zurückgreifen?: Innenräume regelmäßig lüften","ORDINAL","SCALE","Nach dem Erhalt der in dieser Befragung erhaltenen Informationen würden Sie __vorsorglich und ?  auch ohne Messung__ ?  auf eine der folgenden Maßnahmen zur Bekämpfung einer erhöhten Radonskonzentration zurückgreifen?"
+"H201_02","Nach dem Erhalt der Informationen, würden Sie vorsorglich und ? auch ohne Messung ? auf eine der folgenden Maßnahmen zur Bekämpfung einer erhöhten Radonskonzentration zurückgreifen?: Türen zum Keller abdichten","ORDINAL","SCALE","Nach dem Erhalt der in dieser Befragung erhaltenen Informationen würden Sie __vorsorglich und ?  auch ohne Messung__ ?  auf eine der folgenden Maßnahmen zur Bekämpfung einer erhöhten Radonskonzentration zurückgreifen?"
+"H202_01","Nach dem Erhalt der Informationen, würden Sie falls die Ergebnisse der Messung es erfordern - auf eine der folgenden Maßnahmen zur Bekämpfung von erhöhten Radonskonzentration zurückgreifen?: Innenräume regelmäßig lüften","ORDINAL","SCALE","Nach dem Erhalt der in dieser Befragung erhaltenen Informationen würden Sie ? __falls die Ergebnisse der Messung es erfordern__ ? auf eine der folgenden Maßnahmen zur Bekämpfung von erhöhten Radonskonzentration zurückgreifen?
+"
+"H202_02","Nach dem Erhalt der Informationen, würden Sie falls die Ergebnisse der Messung es erfordern - auf eine der folgenden Maßnahmen zur Bekämpfung von erhöhten Radonskonzentration zurückgreifen?: Türen zum Keller abdichten","ORDINAL","SCALE","Nach dem Erhalt der in dieser Befragung erhaltenen Informationen würden Sie ? __falls die Ergebnisse der Messung es erfordern__ ? auf eine der folgenden Maßnahmen zur Bekämpfung von erhöhten Radonskonzentration zurückgreifen?
+"
+"H202_03","Nach dem Erhalt der Informationen, würden Sie falls die Ergebnisse der Messung es erfordern - auf eine der folgenden Maßnahmen zur Bekämpfung von erhöhten Radonskonzentration zurückgreifen?: Fachspezifische Sanierung","ORDINAL","SCALE","Nach dem Erhalt der in dieser Befragung erhaltenen Informationen würden Sie ? __falls die Ergebnisse der Messung es erfordern__ ? auf eine der folgenden Maßnahmen zur Bekämpfung von erhöhten Radonskonzentration zurückgreifen?
+"
+"CL01_01","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: bringt Lüften nichts.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CL01_02","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: ist regelmäßiges Lüften sicher ein guter Anfang.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CL01_03","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: beabsichtige ich regelmäßig zu Lüften, halte es aber für schwer umsetzbar (z.B Aufgrund von langer Abwesenheit, Kälte, Kindern usw.).","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CL01_04","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: ist regelmäßiges Lüften ein geringer Aufwand, der sich für mich auf jeden Fall lohnt.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CL01_05","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: weiß ich nicht, wie ich wirksam lüften soll.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CL01_06","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: weiß ich, in welchen Fällen ist es empfehlenswert, die Innenräume zu lüften.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CA01_01","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: bringen Abdichtungen nichts.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CA01_02","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: ist es sinnvoll, Abdichtungen zu überprüfen und ggf. zu erneuern.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CA01_03","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: fehlt mir die Zeit, die Abdichtungen zu überprüfen bzw. zu erneuern, obwohl ich die Maßnahme für sinnvoll halte.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CA01_04","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: ist der Aufwand für die Überprüfung und Erneuerung der Abdichtungen gering und lohnend.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CA01_05","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: weiß ich nicht, wie ich Abdichtungen richtig überprüfen und ggf. erneuern soll.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CA01_06","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: würde ich mich entweder selber darum kümmern oder jemanden beauftragen, die Abdichtungen zu überprüfen und ggf. zu erneuern.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CS01_01","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: kann eine Sanierung das Problem nicht vollständig beseitigen.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CS01_02","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: ist es sinnvoll, eine Sanierung durchzuführen.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CS01_03","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: schätze ich die Kosten für die erforderliche Sanierung als zu hoch ein.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CS01_04","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: wäre ich trotz der Kosten bereit, die erforderliche Sanierung durchzuführen.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CS01_05","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: weiß ich nicht, wie ich eine professionelle Radonsanierung durchführen lassen kann.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"CS01_06","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: würde ich jetzt wissen, wie ich das Radonrisiko definitiv beseitigen kann.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"US01_01","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: Ich bin mir unsicher, ob ich die Radonkonzentration in meinem Wohnraum messen lassen soll.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"US01_02","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: Falls in meinem Wohnraum hohe Radonkonzentrationen gemessen werden, bin ich unsicher, wie ich weiter vorgehen soll.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"US01_03","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: Ich bin mir unsicher, ob ich vorsorglich ? auch ohne Messung ? Maßnahmen wie Lüften oder Türen abdichten ergreifen soll.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"US01_04","Stimmen Sie den folgenden Aussagen nicht zu oder zu?: Ich bin unsicher, ob ich vom Radonrisiko betroffen bin.","ORDINAL","SCALE","Aufbasis der Informationen, die Sie erhalten haben, stimmen Sie der folgenden Aussage nicht zu oder zu?"
+"TIME001","Verweildauer Seite 1","METRIC","SYSTEM",
+"TIME002","Verweildauer Seite 2","METRIC","SYSTEM",
+"TIME003","Verweildauer Seite 3","METRIC","SYSTEM",
+"TIME004","Verweildauer Seite 4","METRIC","SYSTEM",
+"TIME005","Verweildauer Seite 5","METRIC","SYSTEM",
+"TIME006","Verweildauer Seite 6","METRIC","SYSTEM",
+"TIME007","Verweildauer Seite 7","METRIC","SYSTEM",
+"TIME008","Verweildauer Seite 8","METRIC","SYSTEM",
+"TIME009","Verweildauer Seite 9","METRIC","SYSTEM",
+"TIME010","Verweildauer Seite 10","METRIC","SYSTEM",
+"TIME011","Verweildauer Seite 11","METRIC","SYSTEM",
+"TIME012","Verweildauer Seite 12","METRIC","SYSTEM",
+"TIME013","Verweildauer Seite 13","METRIC","SYSTEM",
+"TIME014","Verweildauer Seite 14","METRIC","SYSTEM",
+"TIME015","Verweildauer Seite 15","METRIC","SYSTEM",
+"TIME016","Verweildauer Seite 16","METRIC","SYSTEM",
+"TIME017","Verweildauer Seite 17","METRIC","SYSTEM",
+"TIME018","Verweildauer Seite 18","METRIC","SYSTEM",
+"TIME019","Verweildauer Seite 19","METRIC","SYSTEM",
+"TIME020","Verweildauer Seite 20","METRIC","SYSTEM",
+"TIME_SUM","Verweildauer gesamt (ohne Ausreißer)","METRIC","SYSTEM",
+"MAILSENT","Versandzeitpunkt der Einladungsmail (nur für nicht-anonyme Adressaten)","TIME","SYSTEM",
+"LASTDATA","Zeitpunkt als der Datensatz das letzte mal geändert wurde","TIME","SYSTEM",
+"FINISHED","Wurde die Befragung abgeschlossen (letzte Seite erreicht)?","BOOL","SYSTEM",
+"Q_VIEWER","Hat der Teilnehmer den Fragebogen nur angesehen, ohne die Pflichtfragen zu beantworten?","BOOL","SYSTEM",
+"LASTPAGE","Seite, die der Teilnehmer zuletzt bearbeitet hat","METRIC","SYSTEM",
+"MAXPAGE","Letzte Seite, die im Fragebogen bearbeitet wurde","METRIC","SYSTEM",
+"MISSING","Anteil fehlender Antworten in Prozent","METRIC","SYSTEM",
+"MISSREL","Anteil fehlender Antworten (gewichtet nach Relevanz)","METRIC","SYSTEM",
+"TIME_RSI","Maluspunkte für schnelles Ausfüllen","METRIC","SYSTEM",
+"DEG_TIME","Maluspunkte für schnelles Ausfüllen","METRIC","SYSTEM",
